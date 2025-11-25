@@ -1,27 +1,21 @@
-# 6fx.github.io
 <!DOCTYPE html>
 <html lang="vi">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<title>Khóa học Forex Cung Cầu, VSA &amp; VPA | 6FX Team</title>
-
 	<meta name="description" content="Khóa học forex chuyên sâu áp dụng phương pháp Cung Cầu, VSA &amp; VPA. Học trực tiếp cùng IB forex đang giao dịch có lợi nhuận. Giá chỉ 200 USD tại 6FX Team.">
 	<meta name="keywords" content="khóa học forex, cung cầu, VSA, VPA, price action, 6FX team, học forex, giao dịch forex, ib forex">
 	<meta name="author" content="6FX Team">
-
 	<!-- Thay bằng domain thật nếu có -->
 	<link rel="canonical" href="https://6fx-team-website.com/">
-
 	<meta property="og:title" content="Khóa học Forex Cung Cầu, VSA &amp; VPA | 6FX Team">
 	<meta property="og:description" content="Hệ thống giao dịch forex dựa trên cung cầu thị trường, VSA &amp; VPA. Học từ trader thực chiến, đang giao dịch có lãi.">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://6fx-team-website.com/">
 	<meta property="og:image" content="https://y5v64-my.sharepoint.com/personal/hshlxutjlt_y5v64_onmicrosoft_com/Documents/6FX.jpg">
 	<meta property="og:locale" content="vi_VN">
-
 	<style>
 		:root {
 			--primary: #0b7dda;
@@ -34,7 +28,6 @@
 			--max-width: 1120px;
 			--radius: 12px;
 		}
-
 		*,
 		*::before,
 		*::after {
@@ -42,7 +35,6 @@
 			margin: 0;
 			padding: 0;
 		}
-
 		body {
 			font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 			background: radial-gradient(circle at top, #0b1120 0, #020617 55%, #000 100%);
@@ -50,31 +42,25 @@
 			line-height: 1.6;
 			scroll-behavior: smooth;
 		}
-
 		img {
 			max-width: 100%;
 			display: block;
 		}
-
 		a {
 			color: inherit;
 			text-decoration: none;
 		}
-
 		header,
 		main,
 		footer {
 			width: 100%;
 		}
-
 		.container {
 			max-width: var(--max-width);
 			margin: 0 auto;
 			padding: 0 1.5rem;
 		}
-
 		/* HEADER & NAV */
-
 		.site-header {
 			position: sticky;
 			top: 0;
@@ -83,20 +69,17 @@
 			background: linear-gradient(to right, rgba(15,23,42,0.9), rgba(15,23,42,0.75));
 			border-bottom: 1px solid rgba(148, 163, 184, 0.25);
 		}
-
 		.nav {
 			display: flex;
 			align-items: center;
 			justify-content: space-between;
 			padding: 0.7rem 0;
 		}
-
 		.logo-wrap {
 			display: flex;
 			align-items: center;
 			gap: 0.6rem;
 		}
-
 		.logo-wrap img {
 			width: 42px;
 			height: 42px;
@@ -105,12 +88,10 @@
 			border: 1px solid rgba(148, 163, 184, 0.4);
 			background: #020617;
 		}
-
 		.brand-text {
 			display: flex;
 			flex-direction: column;
 		}
-
 		.brand-text span:first-child {
 			font-weight: 700;
 			text-transform: uppercase;
@@ -118,19 +99,16 @@
 			font-size: 0.8rem;
 			color: #f9fafb;
 		}
-
 		.brand-text span:last-child {
 			font-size: 0.78rem;
 			color: var(--muted);
 		}
-
 		.nav-links {
 			display: flex;
 			align-items: center;
 			gap: 1.6rem;
 			font-size: 0.9rem;
 		}
-
 		.nav-links a {
 			position: relative;
 			color: var(--muted);
@@ -138,7 +116,6 @@
 			padding: 0.2rem 0;
 			transition: color 0.2s ease, transform 0.2s ease;
 		}
-
 		.nav-links a::after {
 			content: "";
 			position: absolute;
@@ -150,21 +127,17 @@
 			background: linear-gradient(90deg, #38bdf8, #6366f1, #f97316);
 			transition: width 0.25s ease;
 		}
-
 		.nav-links a:hover {
 			color: #e5e7eb;
 			transform: translateY(-1px);
 		}
-
 		.nav-links a:hover::after,
 		.nav-links a.is-active::after {
 			width: 100%;
 		}
-
 		.nav-links a.is-active {
 			color: #e5e7eb;
 		}
-
 		.nav-cta {
 			padding: 0.55rem 1.2rem;
 			border-radius: 999px;
@@ -179,15 +152,12 @@
 			gap: 0.25rem;
 			white-space: nowrap;
 		}
-
 		.nav-cta::before {
 			content: "●";
 			font-size: 0.6rem;
 			color: #22c55e;
 		}
-
 		/* MOBILE NAV BUTTON */
-
 		.nav-toggle {
 			display: none;
 			width: 34px;
@@ -200,7 +170,6 @@
 			justify-content: center;
 			cursor: pointer;
 		}
-
 		.nav-toggle span,
 		.nav-toggle span::before,
 		.nav-toggle span::after {
@@ -212,49 +181,39 @@
 			position: relative;
 			transition: all 0.2s ease;
 		}
-
 		.nav-toggle span::before,
 		.nav-toggle span::after {
 			content: "";
 			position: absolute;
 			left: 0;
 		}
-
 		.nav-toggle span::before {
 			top: -5px;
 		}
-
 		.nav-toggle span::after {
 			top: 5px;
 		}
-
 		body.nav-open .nav-toggle span {
 			background: transparent;
 		}
-
 		body.nav-open .nav-toggle span::before {
 			top: 0;
 			transform: rotate(45deg);
 		}
-
 		body.nav-open .nav-toggle span::after {
 			top: 0;
 			transform: rotate(-45deg);
 		}
-
 		/* HERO */
-
 		.hero {
 			padding: 3.8rem 0 3rem;
 		}
-
 		.hero-grid {
 			display: grid;
 			grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
 			gap: 2.5rem;
 			align-items: center;
 		}
-
 		.badge {
 			display: inline-flex;
 			align-items: center;
@@ -267,55 +226,46 @@
 			font-size: 0.78rem;
 			margin-bottom: 1rem;
 		}
-
 		.badge span {
 			font-size: 0.9rem;
 		}
-
 		h1 {
 			font-size: clamp(2rem, 3vw + 1rem, 3.1rem);
 			line-height: 1.15;
 			margin-bottom: 1rem;
 			letter-spacing: -0.03em;
 		}
-
 		h1 span {
 			background: linear-gradient(135deg, #f97316, #facc15, #22c55e);
 			-webkit-background-clip: text;
 			color: transparent;
 		}
-
 		.hero-subtitle {
 			font-size: 1.02rem;
 			color: var(--muted);
 			max-width: 34rem;
 			margin-bottom: 1.5rem;
 		}
-
 		.price-tag {
 			display: inline-flex;
 			align-items: baseline;
 			gap: 0.4rem;
 			margin-bottom: 1.8rem;
 		}
-
 		.price-tag strong {
 			font-size: 2rem;
 			color: #facc15;
 		}
-
 		.price-tag span {
 			font-size: 0.9rem;
 			color: var(--muted);
 		}
-
 		.hero-actions {
 			display: flex;
 			flex-wrap: wrap;
 			gap: 0.9rem;
 			margin-bottom: 1.2rem;
 		}
-
 		.btn-primary {
 			padding: 0.8rem 1.4rem;
 			border-radius: 999px;
@@ -330,11 +280,9 @@
 			gap: 0.4rem;
 			box-shadow: 0 14px 32px rgba(15, 118, 210, 0.55);
 		}
-
 		.btn-primary span {
 			font-size: 1.1rem;
 		}
-
 		.btn-outline {
 			padding: 0.8rem 1.2rem;
 			border-radius: 999px;
@@ -345,12 +293,10 @@
 			cursor: pointer;
 			font-size: 0.95rem;
 		}
-
 		.hero-note {
 			font-size: 0.83rem;
 			color: var(--muted);
 		}
-
 		.hero-card {
 			background: radial-gradient(circle at top left, rgba(59, 130, 246, 0.32), transparent 55%),
 			            linear-gradient(to bottom right, #020617, #020617);
@@ -359,12 +305,10 @@
 			padding: 1.6rem 1.4rem;
 			box-shadow: 0 22px 60px rgba(15, 23, 42, 0.9);
 		}
-
 		.hero-card h2 {
 			font-size: 1.1rem;
 			margin-bottom: 0.9rem;
 		}
-
 		.hero-card ul {
 			list-style: none;
 			display: grid;
@@ -373,14 +317,12 @@
 			color: var(--muted);
 			margin-bottom: 1.1rem;
 		}
-
 		.hero-card li::before {
 			content: "✔";
 			color: #4ade80;
 			margin-right: 0.4rem;
 			font-size: 0.8rem;
 		}
-
 		.hero-mini {
 			display: flex;
 			align-items: center;
@@ -388,43 +330,34 @@
 			gap: 0.9rem;
 			font-size: 0.82rem;
 		}
-
 		.hero-mini span {
 			color: var(--muted);
 		}
-
 		.hero-mini strong {
 			color: #e5e7eb;
 		}
-
 		/* SECTIONS */
-
 		.section {
 			padding: 3rem 0;
 		}
-
 		.section-header {
 			max-width: 640px;
 			margin: 0 auto 2rem;
 			text-align: center;
 		}
-
 		.section-header h2 {
 			font-size: 1.6rem;
 			margin-bottom: 0.4rem;
 		}
-
 		.section-header p {
 			color: var(--muted);
 			font-size: 0.98rem;
 		}
-
 		.grid-3 {
 			display: grid;
 			grid-template-columns: repeat(3, minmax(0, 1fr));
 			gap: 1.5rem;
 		}
-
 		.card {
 			background: linear-gradient(145deg, #020617, #030712);
 			border-radius: var(--radius);
@@ -432,17 +365,14 @@
 			padding: 1.15rem 1.1rem;
 			font-size: 0.9rem;
 		}
-
 		.card h3 {
 			font-size: 1rem;
 			margin-bottom: 0.35rem;
 		}
-
 		.card p {
 			color: var(--muted);
 			font-size: 0.9rem;
 		}
-
 		.card-badge {
 			display: inline-flex;
 			align-items: center;
@@ -455,16 +385,13 @@
 			font-size: 0.9rem;
 			margin-bottom: 0.5rem;
 		}
-
 		/* CURRICULUM */
-
 		.curriculum {
 			display: grid;
 			grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
 			gap: 2rem;
 			align-items: start;
 		}
-
 		.module {
 			border-radius: var(--radius);
 			border: 1px solid rgba(55, 65, 81, 0.9);
@@ -473,39 +400,32 @@
 			padding: 1rem 1rem 0.9rem;
 			margin-bottom: 0.9rem;
 		}
-
 		.module-title {
 			display: flex;
 			justify-content: space-between;
 			align-items: center;
 			margin-bottom: 0.45rem;
 		}
-
 		.module-title h3 {
 			font-size: 0.98rem;
 		}
-
 		.module-title span {
 			font-size: 0.78rem;
 			color: var(--muted);
 		}
-
 		.module ul {
 			margin-left: 1.1rem;
 			color: var(--muted);
 			font-size: 0.9rem;
 		}
-
 		.module ul li {
 			margin-bottom: 0.25rem;
 		}
-
 		.curriculum-note {
 			font-size: 0.86rem;
 			color: var(--muted);
 			margin-top: 0.5rem;
 		}
-
 		.curriculum-card {
 			background: linear-gradient(145deg, #020617, #030712);
 			border-radius: var(--radius);
@@ -513,19 +433,15 @@
 			border: 1px solid rgba(148, 163, 184, 0.3);
 			font-size: 0.9rem;
 		}
-
 		.curriculum-card ul {
 			margin-left: 1.1rem;
 			margin-top: 0.3rem;
 			color: var(--muted);
 		}
-
 		.curriculum-card li {
 			margin-bottom: 0.25rem;
 		}
-
 		/* PRICING / CTA */
-
 		.pricing {
 			border-radius: 18px;
 			border: 1px solid rgba(55, 65, 81, 0.9);
@@ -537,59 +453,48 @@
 			gap: 1.8rem;
 			align-items: center;
 		}
-
 		.pricing-left h2 {
 			font-size: 1.4rem;
 			margin-bottom: 0.4rem;
 		}
-
 		.pricing-left p {
 			font-size: 0.94rem;
 			color: var(--muted);
 		}
-
 		.pricing-right {
 			text-align: right;
 		}
-
 		.price-main {
 			font-size: 2.2rem;
 			font-weight: 700;
 			color: #facc15;
 		}
-
 		.price-label {
 			font-size: 0.86rem;
 			color: var(--muted);
 			margin-bottom: 0.3rem;
 		}
-
 		.price-small {
 			font-size: 0.8rem;
 			color: var(--muted);
 			margin-top: 0.25rem;
 		}
-
 		/* FORM */
-
 		.form-section {
 			max-width: 640px;
 			margin: 0 auto;
 		}
-
 		form {
 			display: grid;
 			gap: 0.8rem;
 			margin-top: 1rem;
 		}
-
 		label {
 			font-size: 0.86rem;
 			color: var(--muted);
 			display: block;
 			margin-bottom: 0.2rem;
 		}
-
 		input,
 		textarea {
 			width: 100%;
@@ -600,35 +505,29 @@
 			color: #e5e7eb;
 			font-size: 0.9rem;
 		}
-
 		input:focus,
 		textarea:focus {
 			outline: none;
 			border-color: var(--primary);
 			box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.5);
 		}
-
 		.form-row {
 			display: grid;
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 			gap: 0.8rem;
 		}
-
 		.form-note {
 			font-size: 0.78rem;
 			color: var(--muted);
 			margin-top: 0.3rem;
 		}
-
 		/* FOOTER */
-
 		.site-footer {
 			border-top: 1px solid rgba(55, 65, 81, 0.8);
 			padding: 1.4rem 0;
 			background: #020617;
 			font-size: 0.8rem;
 		}
-
 		.footer-inner {
 			display: flex;
 			align-items: center;
@@ -636,26 +535,21 @@
 			gap: 1rem;
 			color: var(--muted);
 		}
-
 		/* RESPONSIVE */
-
 		@media (max-width: 900px) {
 			.hero-grid,
 			.curriculum,
 			.pricing {
 				grid-template-columns: minmax(0, 1fr);
 			}
-
 			.pricing-right {
 				text-align: left;
 			}
-
 			.footer-inner {
 				flex-direction: column;
 				align-items: flex-start;
 			}
 		}
-
 		@media (max-width: 768px) {
 			.nav-links {
 				position: absolute;
@@ -670,38 +564,30 @@
 				align-items: flex-start;
 				gap: 0.9rem;
 			}
-
 			body.nav-open .nav-links {
 				display: flex;
 			}
-
 			.nav-cta {
 				width: 100%;
 				justify-content: center;
 			}
-
 			.nav-toggle {
 				display: flex;
 			}
-
 			.hero {
 				padding-top: 2.5rem;
 			}
-
 			.card {
 				padding: 1rem;
 			}
 		}
-
 		@media (max-width: 640px) {
 			.grid-3 {
 				grid-template-columns: minmax(0, 1fr);
 			}
-
 			h1 {
 				font-size: 1.9rem;
 			}
-
 			.hero-card {
 				margin-top: 0.6rem;
 			}
@@ -720,11 +606,9 @@
 				<span>Cung Cầu · VSA · VPA</span>
 			</div>
 		</div>
-
 		<button class="nav-toggle" type="button" aria-label="Mở menu">
 			<span></span>
 		</button>
-
 		<nav class="nav-links" aria-label="Điều hướng chính">
 			<a href="#about" class="is-active">Về khóa học</a>
 			<a href="#curriculum">Nội dung</a>
@@ -745,19 +629,15 @@
 					<span>⚡</span>
 					<span>IB Forex thực chiến · Hệ thống Cung Cầu + VSA + VPA</span>
 				</div>
-
 				<h1>Khóa học Forex <span>Cung Cầu · VSA · VPA</span> cho trader muốn giao dịch có lãi bền vững</h1>
-
 				<p class="hero-subtitle">
 					Chương trình được thiết kế từ kinh nghiệm thực tế của IB forex đang giao dịch có lợi nhuận, giúp bạn đọc được
 					dòng tiền thông qua cung cầu, volume và hành vi giá để vào lệnh chính xác hơn.
 				</p>
-
 				<div class="price-tag">
 					<strong>200&nbsp;$</strong>
 					<span>/ trọn đời, cập nhật miễn phí</span>
 				</div>
-
 				<div class="hero-actions">
 					<a href="#contact" class="btn-primary">
 						<span>🚀</span> Đăng ký học ngay
@@ -766,12 +646,10 @@
 						Xem chi tiết nội dung
 					</a>
 				</div>
-
 				<p class="hero-note">
 					Mô hình học: online qua Zoom / video + hỗ trợ 1:1 qua chat cho học viên 6FX Team.
 				</p>
 			</div>
-
 			<aside class="hero-card" aria-label="Lợi ích chính của khóa học">
 				<h2>Kết quả bạn nhận được sau khóa học</h2>
 				<ul>
@@ -781,7 +659,6 @@
 					<li>Biết cách quản lý rủi ro và tài khoản như trader chuyên nghiệp.</li>
 					<li>Tham gia cộng đồng 6FX Team, cập nhật case study mỗi tuần.</li>
 				</ul>
-
 				<div class="hero-mini">
 					<div>
 						<span>Đã ứng dụng thực tế trên tài khoản thật</span><br>
@@ -795,7 +672,6 @@
 			</aside>
 		</div>
 	</section>
-
 	<section class="section" id="about" data-section="about">
 		<div class="container">
 			<header class="section-header">
@@ -805,7 +681,6 @@
 					và nơi nào là vùng giá có xác suất cao để tham gia thị trường.
 				</p>
 			</header>
-
 			<div class="grid-3">
 				<article class="card">
 					<div class="card-badge">1</div>
@@ -815,7 +690,6 @@
 						có thể áp dụng ngay trên biểu đồ, không lan man.
 					</p>
 				</article>
-
 				<article class="card">
 					<div class="card-badge">2</div>
 					<h3>Đọc dòng tiền qua Volume, không đoán mò</h3>
@@ -824,7 +698,6 @@
 						để đi theo, hạn chế giao dịch ngược xu hướng mạnh.
 					</p>
 				</article>
-
 				<article class="card">
 					<div class="card-badge">3</div>
 					<h3>Hỗ trợ sau khóa học &amp; cộng đồng 6FX</h3>
@@ -836,7 +709,6 @@
 			</div>
 		</div>
 	</section>
-
 	<section class="section" id="curriculum" data-section="curriculum">
 		<div class="container">
 			<header class="section-header">
@@ -846,7 +718,6 @@
 					nhưng chưa ổn định lợi nhuận.
 				</p>
 			</header>
-
 			<div class="curriculum">
 				<div>
 					<article class="module">
@@ -860,7 +731,6 @@
 							<li>Các sai lầm phổ biến khiến trader mãi thua lỗ.</li>
 						</ul>
 					</article>
-
 					<article class="module">
 						<div class="module-title">
 							<h3>Module 2 – Phương pháp Cung Cầu thực chiến</h3>
@@ -872,7 +742,6 @@
 							<li>Kịch bản giao dịch tại vùng cung cầu trên nhiều khung thời gian.</li>
 						</ul>
 					</article>
-
 					<article class="module">
 						<div class="module-title">
 							<h3>Module 3 – VSA &amp; VPA: Đọc volume như big boy</h3>
@@ -884,7 +753,6 @@
 							<li>Mô hình nến volume đảo chiều &amp; tiếp diễn.</li>
 						</ul>
 					</article>
-
 					<article class="module">
 						<div class="module-title">
 							<h3>Module 4 – Xây dựng hệ thống giao dịch hoàn chỉnh</h3>
@@ -896,13 +764,11 @@
 							<li>Thực hành trên case study thị trường hiện tại.</li>
 						</ul>
 					</article>
-
 					<p class="curriculum-note">
 						Thời lượng có thể điều chỉnh linh hoạt theo trình độ học viên.
 						Tất cả buổi học đều được ghi lại để bạn xem lại bất cứ khi nào.
 					</p>
 				</div>
-
 				<aside class="curriculum-card">
 					<h3>Cách học tại 6FX Team</h3>
 					<ul>
@@ -911,7 +777,6 @@
 						<li>Sau khi học xong vẫn được đặt câu hỏi trong nhóm hỗ trợ.</li>
 						<li>Update chiến lược &amp; case study thị trường liên tục.</li>
 					</ul>
-
 					<p class="curriculum-note">
 						Khóa học phù hợp với: trader mới, trader đang thua lỗ hoặc hòa vốn,
 						IB muốn có thêm hệ thống giao dịch để hỗ trợ khách hàng tốt hơn.
@@ -920,7 +785,6 @@
 			</div>
 		</div>
 	</section>
-
 	<section class="section" id="pricing" data-section="pricing">
 		<div class="container">
 			<div class="pricing">
@@ -942,7 +806,6 @@
 			</div>
 		</div>
 	</section>
-
 	<section class="section" id="contact" data-section="contact">
 		<div class="container form-section">
 			<header class="section-header">
@@ -952,7 +815,6 @@
 					và gửi cho bạn lộ trình phù hợp nhất.
 				</p>
 			</header>
-
 			<form action="#" method="post">
 				<div class="form-row">
 					<div>
@@ -964,7 +826,6 @@
 						<input type="text" id="telegram" name="telegram" placeholder="@username hoặc số điện thoại" required>
 					</div>
 				</div>
-
 				<div class="form-row">
 					<div>
 						<label for="email">Email</label>
@@ -975,16 +836,13 @@
 						<input type="text" id="experience" name="experience" placeholder="Mới / &lt; 1 năm / &gt; 1 năm...">
 					</div>
 				</div>
-
 				<div>
 					<label for="message">Mục tiêu của bạn với forex</label>
 					<textarea id="message" name="message" rows="4" placeholder="Chia sẻ ngắn về mục tiêu và tình trạng hiện tại của bạn..."></textarea>
 				</div>
-
 				<button type="submit" class="btn-primary">
 					<span>📩</span> Gửi thông tin cho 6FX Team
 				</button>
-
 				<p class="form-note">
 					*Thông tin của bạn được bảo mật tuyệt đối. 6FX Team chỉ sử dụng để liên hệ tư vấn khóa học,
 					không spam và không chia sẻ cho bên thứ ba.
@@ -992,7 +850,6 @@
 			</form>
 		</div>
 	</section>
-
 	<section class="section" id="disclaimer" data-section="disclaimer">
 		<div class="container">
 			<header class="section-header">
@@ -1002,7 +859,6 @@
 					tiềm ẩn mức rủi ro rất cao và không phù hợp với mọi nhà đầu tư.
 				</p>
 			</header>
-
 			<div class="card" style="max-width: 880px; margin: 0 auto;">
 				<h3 style="margin-bottom: 0.6rem;">Lưu ý quan trọng</h3>
 				<p style="font-size: 0.9rem; color: var(--muted);">
@@ -1024,14 +880,12 @@
 			</div>
 		</div>
 	</section>
-
 	<section class="section" id="faq" data-section="faq">
 		<div class="container">
 			<header class="section-header">
 				<h2>Câu hỏi thường gặp (FAQ)</h2>
 				<p>Nếu bạn còn băn khoăn, hãy xem qua một vài câu hỏi phổ biến dưới đây.</p>
 			</header>
-
 			<div class="grid-3">
 				<article class="card">
 					<h3>Khóa học phù hợp với trình độ nào?</h3>
@@ -1040,7 +894,6 @@
 						Ở đầu khóa, bạn sẽ được hệ thống lại từ tư duy đến nền tảng thị trường.
 					</p>
 				</article>
-
 				<article class="card">
 					<h3>Có cần vốn lớn mới học được không?</h3>
 					<p>
@@ -1048,7 +901,6 @@
 						Quan trọng là hiểu đúng về cung cầu, volume và quản lý rủi ro trước khi tăng khối lượng.
 					</p>
 				</article>
-
 				<article class="card">
 					<h3>Có được hỗ trợ sau khi học xong không?</h3>
 					<p>
@@ -1060,7 +912,6 @@
 		</div>
 	</section>
 </main>
-
 <footer class="site-footer">
 	<div class="container footer-inner">
 		<div>
@@ -1068,7 +919,6 @@
 		</div>
 	</div>
 </footer>
-
 <script>
 	document.addEventListener("DOMContentLoaded", function () {
 		// Toggle mobile nav
